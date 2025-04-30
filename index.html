@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vidix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Vidix</h1>
+    </header>
+
+    <!-- Feed Section -->
+    <section id="feed-section">
+        <div id="video-feed" class="video-feed">
+            <!-- Video akan tampil di sini -->
+        </div>
+    </section>
+
+    <!-- Upload Section -->
+    <section id="upload-section" style="display: none;">
+        <h2>Upload Video Baru</h2>
+        <form id="upload-form">
+            <input type="file" id="video-upload" accept="video/mp4,video/webm" required>
+            <button type="submit">Upload</button>
+        </form>
+    </section>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <button id="floating-upload-btn">+</button>
+        <button id="home-btn">🏠</button>
+    </div>
+
+<script src="script.js"></script>
+    <!-- Overlay -->
+<div id="overlay" style="display: none;"
+</div>
+</body>
+</html>
